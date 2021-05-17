@@ -1,0 +1,81 @@
+################## Hero area ##################
+hero_area:
+  enable : true
+  bg_image : "images/1.JPG"
+  overlay : true
+
+################### Gallery ###################
+gallery:
+  enable : true
+  title : "Items"
+  images:
+    - "images/slider/200g.jpg"
+    - "images/slider/200g_AvoToma.jpg"
+    - "images/slider/400g_sour_cream.jpg"
+    - "images/slider/wasabi.jpg"
+    - "images/slider/hot_and_spicy.jpg"
+    - "images/slider/HomeMadeCurry.jpg"
+    - "images/slider/roasted_cheese.jpg"
+    - "images/slider/beef_tendon.jpg"
+    - "images/slider/garlicrice.jpg"
+    - "images/slider/salad.jpg"
+    - "images/slider/Drink.jpg"
+
+################ About #######################
+about:
+  enable : true
+  image : "images/Diner-Tummy-logo.jpg"
+  title : "Diner Tummy"
+  description : "自家製ローストビーフとカレーのお店。イートイン・テイクアウトどちらも可能。是非お立ち寄りください。"
+  
+################# food Menu ################
+pricing:
+  enable : true
+  title : "Our Easy <span>PRICE</span>"
+  description: "学生証を提示して頂くとご飯大盛り無料"
+  subtitle : "MENU"
+  pricing_item:
+  - title: "ローストビーフ丼"
+    description: "[サイズ] 100g 650円, 150g 800円, 200g 1000円, 200g以上は50g増ごとに+200円   [トッピング] サワークリーム 100円, きざみわさび 100円, アボトマ 200円"
+    price : "650~1000円"
+
+  - title: "ローストビーフ丼旨辛"
+    description: "ブロック状に刻んだローストビーフにコチュジャンベースの旨辛ダレを絡めた一品"
+    price : "800円"
+
+  - title: "おうちカレー"
+    description: "[サービス] 福神漬け無料"
+    price : "500円"
+
+  - title: "炙りチーズキーマカレー"
+    description: "カレーと相性バツグンのチーズを更に炙って香ばしさもプラス"
+    price : "700円"
+
+  - title: "島カレー(牛すじ)"
+    description: "泡盛と島バナナを使用したカレー"
+    price : "800円"
+
+  - title: "きまぐれカレー"
+    description: "期間限定&数量限定のカレー"
+    price : "700円"
+
+  - title: "ガーリックライス"
+    description: "バターとガーリックがしっかり香るガツンと飯"
+    price : "500円"
+
+  - title: "サラダ"
+    description: "[トッピング]ローストビーフ30g 200円, キノコソテー 200円, アボカド 100円, トマト 100円   [ドレッシング]自家製たべるドレッシング, ステーキソース, アイランドドレッシング"
+    price : "300~900円"
+
+  - title: "ドリンク"
+    description: "セットドリンク 150円, 単品 200円"
+    price : "150 or 200円"
+
+################# Blog ######################
+blog:
+  enable : true
+  title : "Our Latest <span>Blog</span>"
+  bg_image : "images/blog/2.JPG"
+  overlay : true
+
+

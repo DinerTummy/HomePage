@@ -1,0 +1,116 @@
+######################## default configuration ####################
+baseURL = "https://DinerTummy.github.io/"
+languageCode = "ja-jp"
+title = "Restaurant Hugo"
+theme = "restaurant-hugo"
+summaryLength = "10"
+paginate = 4
+
+############################# Plugins ##############################
+
+# CSS Plugins
+[[params.plugins.css]]
+URL = "css/bootstrap.min.css"
+[[params.plugins.css]]
+URL = "css/slick.css"
+[[params.plugins.css]]
+URL = "css/font-awesome.min.css"
+[[params.plugins.css]]
+URL = "css/animate.min.css"
+[[params.plugins.css]]
+URL = "css/venobox.css"
+[[params.plugins.css]]
+URL = "css/main.css"
+[[params.plugins.css]]
+URL = "css/responsive.css"
+
+# JS Plugins
+[[params.plugins.js]]
+URL = "js/jquery.min.js"
+[[params.plugins.js]]
+URL = "js/bootstrap.min.js"
+[[params.plugins.js]]
+URL = "js/slick.min.js"
+[[params.plugins.js]]
+URL = "js/wow.min.js"
+[[params.plugins.js]]
+URL = "js/venobox.min.js"
+[[params.plugins.js]]
+URL = "js/main.js"
+
+############################## navigation ###############################
+
+[[menu.main]]
+name = "Home"
+URL = "hero-area"
+weight = 1
+
+[[menu.main]]
+name = "About Us"
+URL = "about-us"
+weight = 2
+
+[[menu.main]]
+name = "Blog"
+URL = "blog"
+weight = 3
+
+[[menu.main]]
+name = "Price"
+URL = "price"
+weight = 4
+
+
+#################### default parameters ################################
+[params]
+logo = "images/看板.png"
+# meta data
+author = "Themefisher"
+description = "This is meta description"
+# google analitycs ID
+google_analitycs_id = "Your ID"
+# mainSections
+main_sections = ["blog"]
+# copyright
+copyright = "DinerTummy"
+
+# Preloader
+[params.preloader]
+enable = false
+preloader = "" # use .png , .svg or .gif format
+
+################################### Footer ############################
+[params.footer]
+enable = true
+contactInfoTitle = "CONTACT <span>INFO</span> "
+socialTitle = "Follow <span>US</span>"
+
+############################ footer contact item
+[[params.footer.contactItem]]
+title="Telephone"
+icon = "fa fa-phone"
+content = "098-963-9977"
+
+[[params.footer.contactItem]]
+title="Address"
+icon = "fa fa-map-marker"
+content = "沖縄県宜野湾市志真志2-21-13 曙荘1 1F店舗"
+
+[[params.footer.contactItem]]
+title="Mail"
+icon = "fa fa-envelope"
+content = "diner.tummy@gmail.com"
+
+[[params.footer.contactItem]]
+title="FastPick"
+icon = "fa fa-envelope"
+content = "https://fast-pick.com"
+
+######################## Social Icon
+[[params.footer.socialLink]]
+icon = "twitter"
+link = "https://twitter.com/diner_tummy"
+
+[[params.footer.socialLink]]
+icon = "instagram"
+link = "https://www.instagram.com/diner_tummy/?hl=ja"
