@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://DinerTummy.github.io/"
+baseURL = "https://dinertummy.com/"
 languageCode = "ja-jp"
 title = "Restaurant Hugo"
 theme = "restaurant-hugo"
