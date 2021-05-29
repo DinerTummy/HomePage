@@ -2,6 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blogs on Restaurant Hugo</title>
+<<<<<<< HEAD
     <link>https://arkaspro.co.jp/DinerTummy/blog/</link>
     <description>Recent content in Blogs on Restaurant Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
@@ -13,6 +14,23 @@
       <pubDate>Sat, 13 Feb 2021 19:53:16 +0900</pubDate>
       
       <guid>https://arkaspro.co.jp/DinerTummy/blog/new-dish/</guid>
+=======
+    <link>https://dinertummy.com/blog/</link>
+    <description>Recent content in Blogs on Restaurant Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Sat, 13 Feb 2021 19:53:16 +0900</lastBuildDate>
+    
+	<atom:link href="https://dinertummy.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>New Dish</title>
+      <link>https://dinertummy.com/blog/new-dish/</link>
+      <pubDate>Sat, 13 Feb 2021 19:53:16 +0900</pubDate>
+      
+      <guid>https://dinertummy.com/blog/new-dish/</guid>
+>>>>>>> 73de31f50aae53c88db79986df2ec31fc84beabe
       <description>炙りチーズキーマカレーが通常メニューとして提供します。</description>
     </item>
     

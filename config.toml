@@ -1,7 +1,11 @@
 ######################## default configuration ####################
+<<<<<<< HEAD
 baseURL = "https://arkaspro.co.jp/DinerTummy/"
+=======
+baseURL = "https://dinertummy.com/"
+>>>>>>> 73de31f50aae53c88db79986df2ec31fc84beabe
 languageCode = "ja-jp"
-title = "Restaurant Hugo"
+title = "Diner Tummy"
 theme = "restaurant-hugo"
 summaryLength = "10"
 paginate = 4
